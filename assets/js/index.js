@@ -34,3 +34,18 @@ const shadowHeader = () => {
     : header.classList.remove("shadow-header");
 };
 window.addEventListener("scroll", shadowHeader);
+
+/*======== AJOUT DE LA LIBRAIRIE SWIPER ======*/
+const swiperPopular = new Swiper(".popular__swiper", {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 32,
+  slidesPerview: "auto",
+  centeredSlides: "auto",
+
+  breakpoints: {
+    1150: {
+      spaceBetween: 80,
+    },
+  },
+});
