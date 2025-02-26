@@ -402,6 +402,7 @@ img {
   right: 2rem;
   bottom: 2rem;
   rotate: 75deg;
+  filter: blur(1px);
   transition: transfrom 0.5s 0.1s;
 }
 

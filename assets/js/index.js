@@ -40,7 +40,7 @@ const swiperPopular = new Swiper(".popular__swiper", {
   loop: true,
   grabCursor: true,
   spaceBetween: 32,
-  slidesPerview: "auto",
+  slidesPerView: "auto",
   centeredSlides: "auto",
 
   breakpoints: {
