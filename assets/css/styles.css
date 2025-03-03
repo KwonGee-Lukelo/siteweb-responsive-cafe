@@ -594,7 +594,7 @@ img {
   transform: translate(-0.5rem, -0.5rem);
 }
 /*=============== CONTACT ===============*/
-.container .section__totle {
+.contact .section__title {
   color: var(--white-color);
 }
 
@@ -1194,3 +1194,8 @@ img {
 }
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+@media screen and(min-width: 2048px) {
+  body {
+    zoom: 1.3;
+  }
+}
